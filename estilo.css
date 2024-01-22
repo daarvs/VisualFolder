@@ -1,0 +1,31 @@
+body{
+    background-color: brown;
+}
+#titulo{
+    color: aliceblue;
+}
+
+.parrafo{
+    color: aliceblue;
+    text-align: center;
+    font-size: 16pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#lista{
+    color: aliceblue;
+    font-size: 14pt;
+}
+#miBoton{
+    background-color: yellow;
+    color:rgb(179, 51, 0);
+}
+#link{
+    color: aliceblue;
+}
+#Imagen{
+    width: 85pt;
+}
+#citas{
+    color: aliceblue;
+}
