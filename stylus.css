@@ -1,0 +1,21 @@
+#miElemento {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 18px;
+  }
+
+#miImagen {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+    margin: 18px;
+    border: red 10px none;
+  }
+
+  #miTexto {
+    font-size: 18px;
+    color: darkblue;
+    cursor: pointer;
+    margin: 18px;
+  }

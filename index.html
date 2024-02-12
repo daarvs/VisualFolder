@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Laboratorio</title>
+</head>
+<body>
+    <!--evento click-->
+    <div class="div1">
+        <div class="container">Al hacer click en el boton sube el contador</div>
+        <p id="contador">0</p>
+        <button id="botoncontador">aumentar</button>
+    </div>
+
+    <div class="div2">
+        <div id="Div1" class="caja">Al hacer click se cambia el color </div>
+        <button id="btn2">Cambiar Color</button>
+    </div>
+
+    <div class="div3">
+        <div id="div">Al hacer click muestra o oculta la Imagen</div>
+        <img id="Imagen" src="https://i.pinimg.com/originals/17/0a/81/170a815040a32fcc2f596c59c9284c15.jpg" alt="Imagen" style="width: 200px; height: 150px;">
+        <button id="btn3">Ocultar/Mostrar Imagen</button>
+    </div>
+    <!--evento focus-->
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" onfocus="mostrarAyuda('Hace aparecer este mensaje')">
+        <div id="ayudaNombre" class="ayuda"></div>
+    </form>
+    
+    <input type="text" id="campoBusqueda" value="Cambia el color">
+
+    <input type="text" id="campoNumerico" placeholder="hace aparecer numeros abajo">
+    
+
+    <footer>
+        Francisco Javier Lemus Cruz ---- SMSS063722
+        <br>    
+        Diego Alejandro Rodriguez Valencia ---- SMSS044522
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

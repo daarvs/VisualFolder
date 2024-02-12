@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container, .caja, #div {
+    margin-bottom: 10px;
+}
+
+.div1, .div2, .div3, form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Agregado para corregir el problema del ancho con el borde */
+}
+
+.div1, .div2, .div3, form, #campoBusqueda, #campoNumerico {
+    width: 300px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+   
+}
+
